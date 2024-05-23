@@ -1,14 +1,11 @@
-let nota1, nota2;
+let val, pag, lit;
 
-nome = prompt("Digite o seu nome");
-nota1 =  parseFloat(prompt("Digite sua primeira nota"));
-nota2 =  parseFloat(prompt("Digite sua segunda nota"));
-media = (nota1 + nota2) / 2;
+val = parseFloat(prompt("Informe o valor do litro da gasolina:"));
+pag = parseFloat(prompt("Qual o valor em reais deseja abastecer?"))
+lit = pag/val;
 
-if (media >= 7) {
-    resposta = "aprovado(a)";
-} else {
-    resposta = "reprovado(a)";
+if(pag>0){
+    alert(`Você conseguirá abastecer ${lit.toFixed(1)}L de gasolina com ${pag} reais`);
+} else{
+    alert(`Não é possível abastecer...`)
 }
-
-alert(`${nome}, sua média do aluno é ${media.toFixed(1)}, você está ${resposta}.`);
