@@ -11,8 +11,9 @@ function converterDolar(valor) {
 }
 
 function mostrarResultado(nome, valor) {
-    document.write(`O valor do produto ${nome} em reais 
+    const res = document.getElementById('resultado');
+    res.textContent = `O valor do produto ${nome} em reais 
     é ${valor}, convertido para dólar é 
-    $${converterDolar(valor).toFixed(2)}.`);
+    $${converterDolar(valor).toFixed(2)}.`;
 }
 
