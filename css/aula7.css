@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    background-color: papayawhip;
+    color: burlywood;
+
+}
+
+header{
+
+    width: 100ww;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:peachpuff;
+    color: rosybrown;
+}
+
+main {
+
+    display: flex;
+    flex-direction: column;
+
+}
