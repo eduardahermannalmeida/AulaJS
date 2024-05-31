@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    background-color: rgb(226, 215, 241);
+    color: rgb(111, 91, 143);
+
+}
+
+header {
+
+    width: 100vw;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(194, 160, 221);
+    color: rgb(70, 0, 128);
+}
+
+main {
+
+    width: 100vw;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 35px;
+
+}
+
+.form {
+
+    display: flex;
+    flex-direction: column;
+    margin: 0 500px;
+    margin-top: 40px;
+
+}
+
+.form input {
+
+    margin: 5px;
+    padding: 5px;
+
+}
+
+.form #botoes {
+
+    margin: 5px auto;
+    gap: 10px;
+    display: flex;
+    flex-direction: row;
+
+
+}
+
+.form button {
+
+    width: 90px;
+    height: 40px;
+    margin: 5px auto;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+
+.form button:hover {
+
+    width: 95%;
+    height: 30px;
+    margin: 5px auto;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+
+#verificar {
+
+    background-color: rgb(157, 231, 167);
+    color: rgb(18, 163, 61);
+
+}
+
+#verificar:hover {
+
+    background-color: rgb(189, 255, 199);
+    color: rgb(58, 230, 109);
+
+}
+
+#limpar {
+
+    background-color: rgb(157, 229, 231);
+    color: rgb(18, 163, 156);
+
+}
+
+#limpar:hover{
+
+    background-color: rgb(189, 251, 255);
+    color: rgb(58, 219, 230);
+
+}
+
+.res {
+
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: 10px 60px;
+
+}
+
+footer {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+}
