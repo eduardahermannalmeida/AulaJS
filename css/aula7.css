@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -6,25 +6,86 @@
 
 body {
 
-    background-color: papayawhip;
-    color: burlywood;
+    background-color: rgb(218, 215, 241);
+    color: rgb(96, 91, 143);
 
 }
 
-header{
+header {
 
-    width: 100ww;
+    width: 100vw;
     height: 80px;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color:peachpuff;
-    color: rosybrown;
+    background-color: rgb(164, 160, 221);
+    color: rgb(0, 2, 128);
 }
 
 main {
 
+    width: 100vw;
+    height: 300px;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+
+}
+
+.form {
+
+    display: flex;
+    flex-direction: column;
+    margin: 10px 500px;
+
+}
+
+.form input {
+
+    margin: 5px;
+    padding: 5px;
+
+}
+
+.form button {
+
+    width: 90%;
+    height: 40px;
+    margin: 5px auto;
+    border-radius: 10px;
+    background-color: rgb(157, 231, 167);
+    color: rgb(18, 163, 61);
+    cursor: pointer;
+
+}
+
+.form button:hover {
+
+    width: 95%;
+    height: 30px;
+    margin: 5px auto;
+    border-radius: 10px;
+    background-color: rgb(189, 255, 199);
+    color: rgb(58, 230, 109);
+    cursor: pointer;
+
+}
+
+.res {
+
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: 10px 60px;
+
+}
+
+footer {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 2px solid white;
 
 }
