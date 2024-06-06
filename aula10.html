@@ -5,7 +5,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/aula10.css">
-    <title> Lâmpada </title>
     <title> Tratamento String </title>
 </head>
 
@@ -17,52 +16,79 @@
         </div>
     </header>
 
-    <main>
-
         <div class="form">
 
-            <input type="text" id="minusculo1" placeholder="Minúsculo">
-            <input type="text" id="maisculo1" placeholder="Maiúsculo">
-            <button id="converte" onclick="pegarValor()"> Converte </button>
+            <div class="insert">
+
+                <input type="text" id="minusculo1" placeholder="Minúsculo">
+                <button id="converte" onclick="pegarMinus1()"> Converte </button>
+
+            </div>
+
+            <input type="text" id="maiusculo1" placeholder="Maiúsculo" disabled>
 
         </div>
 
-        <div class="form">
 
-            <input type="text" id="maisculo2" placeholder="Maiúsculo">
-            <input type="text" id="minusculo2" placeholder="Minúsculo">
-            <button id="converte" onclick="pegarValor()"> Converte </button>
-
-        </div>
 
         <div class="form">
 
-            <input type="text" id="palavra1" placeholder="Palavra">
-            <button id="contaCaracter" onclick="pegarValor()"> Conta caracter </button>
 
-        </div>
+            <div class="insert">
 
-        <div class="res">
-            <p id="resultado"> Resultado </p>
-        </div>
+                <input type="text" id="maiusculo2" placeholder="Maiúsculo">
+                <button id="converte" onclick="pegarMaius2()"> Converte </button>
 
-        <div class="form">
+            </div>
 
-            <input type="text" id="texto" placeholder="Texto">
-            <input type="text" id="textoSemEspaco" placeholder="Texto sem espaço">
-            <button id="removeEspaco" onclick="pegarValor()"> Remove espaço </button>
+            <input type="text" id="minusculo2" placeholder="Minúsculo" disabled>
 
         </div>
 
         <div class="form">
 
-            <input type="text" id="palavra2" placeholder="Palavra">
-            <input type="text" id="palavraComATrocado" placeholder="Palavra com a trocado por *">
-            <button id="mostrar" onclick="pegarValor()"> Mostrar </button>
+            <div class="insert">
+
+                <input type="text" id="palavra1" placeholder="Palavra">
+                <button id="contaCaracter" onclick="pegarPal1()"> Conta caracter </button>
+
+            </div>
+
+            <div class="res">
+                <p id="resultado"> </p>
+            </div>
 
         </div>
 
-    </main>
+
+        <div class="form">
+
+            <div class="insert">
+
+                <input type="text" id="texto" placeholder="Texto">
+                <button id="removeEspaco" onclick="pegarTex()"> Remove espaço </button>
+
+            </div>
+
+            <input type="text" id="textoSemEspaco" placeholder="Texto sem espaço" disabled>
+
+        </div>
+
+
+        <div class="form">
+
+            <div class="insert">
+
+                <input type="text" id="palavra2" placeholder="Palavra">
+                <button id="mostrar" onclick="pegarPal2()"> Mostrar </button>
+
+            </div>
+
+            <input type="text" id="palavraComATrocado" placeholder="Palavra com a trocado por *" disabled>
+
+
+
+    <script src= "./js/aula10.js"> </script>
 
 </body>
 
