@@ -4,38 +4,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/aula12.css">
     <title> Cadastro </title>
 </head>
 
 <body>
 
-    <div id="title">
-        <h3> Cadastro </h3>
-    </div>
+    <main>
 
-    <div class="form">
-        <label> Produto </label>
-        <input type="text" id="v" />
-        <button onclick="addItem()"> Salvar </button>
+        <div class="form">
 
-    </div>
+            <div id="title">
+                <h3> Cadastro </h3>
+            </div>
 
-    <div class="form">
-        <label> Pesquisar </label>
-        <button onclick="search()"> Pesquisar</button>
+            <br>
 
-    </div>
+            <div class="insert">
+                <label> Produto </label>
+                <input type="text" id="v" />
+                <button onclick="addItem()"> Salvar </button>
 
-    <div class="botoes">
-        <button onclick="showItems()"> Listar </button>
-        <button onclick="clearItems()"> Limpar </button>
-        <button onclick="removeAll()"> Remover todos </button>
-    </div>
-    <br>
+            </div>
 
-    </div>
-    <div id="d"> </div>
-    </div>
+            <div class="insert">
+                <label> Pesquisar </label>
+                <input type="text" id="sc" />
+                <button onclick="search()"> Pesquisar</button>
+
+            </div>
+
+            <div id="botoes">
+                <button onclick="showItems()"> Listar </button>
+                <button onclick="clearItems()"> Limpar </button>
+                <button onclick="removeAll()"> Remover todos </button>
+            </div>
+            <br>
+
+        </div>
+        <div id="d"> </div>
+        </div>
+        </div>
+
+    </main>
 
     <script src="./js/aula12.js">
 

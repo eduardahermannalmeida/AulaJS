@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    background-color: rgb(241, 215, 241);
+    color: rgb(139, 91, 143);
+
+}
+
+header {
+
+    width: 100vw;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(221, 160, 218);
+    color: rgb(117, 0, 128);
+}
+
+main {
+
+    width: 100vw;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.form {
+
+    display: flex;
+    flex-direction: column;
+    margin: 10px 500px;
+
+}
+
+.form input {
+
+    margin: 5px;
+    padding: 5px;
+
+}
+
+.insert{
+    display: flex;
+    flex-direction: row;
+}
+.form #botoes {
+
+    margin: 5px auto;
+    display: flex;
+    flex-direction: row;
+
+
+}
+
+.form button {
+
+    width: 72px;
+    height: 32px;
+    margin: 5px auto;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: rgb(157, 229, 231);
+    color: rgb(18, 163, 156);
+    margin-right: 5px;
+
+}
+
+.form button:hover {
+
+    width: 120px;
+    height: 35px;
+    margin: 5px auto;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: rgb(189, 251, 255);
+    color: rgb(58, 219, 230);
+
+}
+
+.res {
+
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: 10px 60px;
+
+}
