@@ -29,5 +29,21 @@ function showItems() {
 function clearItems() {
     arr = [];
     localStorage.meuArr = JSON.stringify(arr);
+}
+
+function searchItem() {
+
+
+}
+
+function removeAll() {
+
+    if (confirm("Você tem certeza que deseja remover todos os itens listados?") == true) {
+        arr = [];
+        localStorage.meuArr = JSON.stringify(arr);
+
+    } else {
+
+    }
 
 }

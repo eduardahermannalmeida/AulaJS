@@ -10,40 +10,44 @@
 
 <body>
 
+
+    <header>
+        <div id="title">
+            <h3> Cadastro </h3>
+        </div>
+    </header>
+
     <main>
 
         <div class="form">
 
-            <div id="title">
-                <h3> Cadastro </h3>
-            </div>
-
-            <br>
-
             <div class="insert">
+
                 <label> Produto </label>
                 <input type="text" id="v" />
-                <button onclick="addItem()"> Salvar </button>
+                <button onclick="addItem()" id="saveBtn"> Salvar </button>
 
             </div>
 
-            <div class="insert">
+            <div clas="insert">
                 <label> Pesquisar </label>
                 <input type="text" id="sc" />
-                <button onclick="search()"> Pesquisar</button>
-
+                <button onclick="searchItem()" id="searchBtn"> Pesquisar</button>
             </div>
 
             <div id="botoes">
-                <button onclick="showItems()"> Listar </button>
-                <button onclick="clearItems()"> Limpar </button>
-                <button onclick="removeAll()"> Remover todos </button>
+                <button onclick="showItems()" id="listBtn"> Listar </button>
+                <button onclick="clearItems()" id="clearBtn"> Limpar </button>
+                <button onclick="removeAll()" id="removeBtn"> Remover todos </button>
             </div>
-            <br>
+
+
+        </div class="res">
+
+        <div id="d"> </div>
 
         </div>
-        <div id="d"> </div>
-        </div>
+
         </div>
 
     </main>
