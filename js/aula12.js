@@ -33,6 +33,17 @@ function clearItems() {
 
 function searchItem() {
 
+    let itemProcurado = document.getElementById('sc').value;
+
+    if (localStorage.meuArr) {
+        arr = JSON.parse(localStorage.getItem('meuArr'));
+    }
+
+        if (arr.includes(itemProcurado.value)) {
+            alert(`O item ${itemProcurado} está listado!`);
+        } else {
+            alert(`O item ${itemProcurado} não está listado!`);
+        }
 
 }
 

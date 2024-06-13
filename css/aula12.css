@@ -23,17 +23,15 @@ header {
     align-items: center;
     background-color: rgb(202, 160, 221);
     color: rgb(113, 0, 128);
+    margin-bottom: 20px;
 
 }
 
 main {
 
-    width: 100vw;
-    height: 150px;
     display: flex;
-    flex-direction: column;
     justify-content: center;
-    margin-bottom: 35px;
+    margin-bottom: 20px;
 
 }
 
@@ -41,8 +39,7 @@ main {
 
     display: flex;
     flex-direction: column;
-    margin: 0 500px;
-    margin-top: 40px;
+
 
 }
 
@@ -50,13 +47,14 @@ main {
 
     margin: 5px;
     padding: 5px;
+    width: 350px;
 
 }
 
-.form .botoes {
+.form #botoes {
 
     margin: 5px auto;
-    gap: 10px;
+    gap: 20px;
     display: flex;
     flex-direction: row;
 
@@ -87,11 +85,13 @@ main {
 }
 
 
-#d {
+.res {
 
     text-align: center;
-    display: inline-block;
     margin: 10px 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 
 }
 
