@@ -2,30 +2,22 @@ body {
     font-family: Arial, sans-serif;
     margin: 20px;
     background-color: #f4f4f9;
-
 }
-
 h1 {
     text-align: center;
     color: #333;
-
 }
-
 .input-container {
     display: flex;
     justify-content: center;
     margin-bottom: 20px;
-
 }
-
 #new-todo {
     width: 300px;
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
-
 }
-
 button {
     padding: 10px;
     margin-left: 10px;
@@ -34,22 +26,14 @@ button {
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
 }
-
 button:hover {
     background-color: #0056b3;
-
 }
-
 #todo-list {
     list-style-type: none;
     padding: 0;
-
 }
-
 .todo-item {
     display: flex;
     align-items: center;
@@ -59,24 +43,18 @@ button:hover {
     border-radius: 5px;
     background-color: white;
     margin-bottom: 10px;
-
 }
-
 .todo-item.completed span {
     text-decoration: line-through;
     color: gray;
-
-
 }
-
-.todo-item input[type="text"]{
+.todo-item input[type="text"] {
     flex-grow: 1;
     margin-right: 10px;
     padding: 5px;
     border: 1px solid #ccc;
     border-radius: 5px;
 }
-
 .icon-btn {
     background: none;
     border: none;
@@ -84,16 +62,11 @@ button:hover {
     color: #007bff;
     font-size: 1.2em;
     margin-left: 5px;
-
 }
-
-.icon-btn:hover{
+.icon-btn:hover {
     color: #0056b3;
-
 }
-
-.actions{
+.actions {
     display: flex;
     align-items: center;
-
 }
